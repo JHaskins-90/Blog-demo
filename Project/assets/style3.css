@@ -1,0 +1,45 @@
+@import url(media.css);
+
+
+.photo-single {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+.photo-single img {
+    width: 300px; 
+    height: 600px; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.author-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+
+  .author-info h2 {
+    color: #333;
+  }
+  
+
+  .author-info p {
+    color: #666;
+  }
+  
+
+  .author-info a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  
+  .author-info a:hover {
+    text-decoration: underline;
+  }

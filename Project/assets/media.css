@@ -1,0 +1,31 @@
+
+@media (min-width: 800px) {
+    body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+        "h h h h h"
+        "c c c c c"
+        "f f f f f"
+        ;
+    }
+
+    .photo-grid {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    
+    
+    .photo-grid img {
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+}

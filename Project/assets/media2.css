@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+body,html{
+    display:grid;
+    grid-template-columns: 600px;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "h"
+    "c"
+    "f";
+
+}
+    .photo-grid {
+        flex-direction:row;
+    }
+    .photo-grid img {
+        width: 100%;
+        max-height: 600px;
+    }
+    
+}

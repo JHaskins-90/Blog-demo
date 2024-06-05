@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    height:auto;
+    grid-template-rows: 300px,600px,100px;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+        "h h h h h"
+        "c c c c c"
+        "f f f f f"
+        ;
+}
+
+.blog-header {
+    grid-area: h;
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    background-image: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+header p {
+    font-size: 1.2em;
+}
+
+p{font-weight: 600;}
+
+
+
